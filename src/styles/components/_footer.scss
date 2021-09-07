@@ -1,0 +1,38 @@
+.footer {
+	padding: 46px 0 19px;
+	background: url(../images/footer-bg.jpg);
+	background-size: cover;
+	color: $white;
+
+	.navigation {
+		margin-bottom: 63px;
+		padding: 0;
+
+		a {
+			color: $white;
+		}
+	}
+
+	.logo {
+		margin: 6px 0 79px;
+	}
+}
+
+.copyright {
+	font-size: 14px;
+}
+
+.contact-block {
+	text-align: right;
+
+	.tel-holder {
+		padding-left: 63px;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 25px;
+	}
+
+	.btn {
+		min-width: 264px;
+	}
+}

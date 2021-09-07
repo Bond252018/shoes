@@ -1,0 +1,27 @@
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+//bower
+@import '../vendor/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../vendor/font-awesome-sass/assets/stylesheets/font-awesome';
+
+@import '../vendor/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '../vendor/fancybox/dist/jquery.fancybox.min.css';
+
+
+
+//components
+@import "components/variables";
+@import "components/mixins";
+
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/layout';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/sidebar';
+@import 'components/product-list';
+@import 'components/owl-carousel';
+
+@import 'components/main';

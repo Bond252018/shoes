@@ -1,0 +1,30 @@
+.carousel-holder {
+	padding: 141px 0 0;
+	
+	.owl-carousel {
+		.owl-item {
+			img {
+				display: inline-block;
+				vertical-align: middle;
+				width: auto;
+			}
+		}
+
+		.owl-nav {
+			.owl-prev,
+			.owl-next {
+				position: absolute;
+				left: -50px;
+				top: 50%;
+				font-size: 48px;
+				font-weight: bold;
+				margin: -24px 0 0;
+			}
+
+			.owl-next {
+				left: auto;
+				right: -50px;
+			}
+		} 
+	}
+} 

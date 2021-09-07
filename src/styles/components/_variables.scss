@@ -1,0 +1,48 @@
+//Path
+
+$path-fonts: '../fonts/';
+$path-img: '../images/';
+
+//Fonts
+$arial: Arial, sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
+//Colors
+$black: #000;
+$white: #fff;
+
+$light-pink-bg: #fef6f9;
+$pink: #ffb4e4;
+$light-pink: #f0bdd1;
+
+$blue: #00dbff;
+
+$header-bg: $light-pink-bg;
+$text-color: #383838;
+$border-color: #00dbff;
+
+$btn-primary-color: $pink;
+$btn-default-color: $light-pink;
+
+$input-bg: #f6f5f5;
+
+//Default settings
+$default-font:$open-sans;
+$default-font-size: 20px;
+$default-line-height: 1.5;
+$default-font-weight: 400;
+$default-font-style: normal;
+$default-text-color: $text-color;
+$text-color-inverse: $white;
+
+$body-bg: $white;
+
+
+$md-max: 'screen and (max-width: #{$screen-lg - 1})';
+$md-min: 'screen and (min-width: #{$screen-md})';
+$sm-max: 'screen and (max-width: #{$screen-md - 1})';
+$sm-min: 'screen and (min-width: #{$screen-sm})';
+$xs-max: 'screen and (max-width: #{$screen-sm - 1})';
+$xs-min: 'screen and (min-width: #{$screen-xs})';
+$xm-max: 'screen and (max-width: 479px)';
+$xm-min: 'screen and (min-width: 480px)';

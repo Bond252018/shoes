@@ -1,0 +1,61 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	position: relative;
+	font-family: $default-font;
+	font-size: $default-font-size;
+	font-weight: $default-font-weight;
+	font-style: $default-font-style;
+	line-height: $default-line-height;
+	color: $default-text-color;
+	background-color: $body-bg;
+	min-width: 320px;
+}
+
+.layout {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+
+	.content {
+		overflow: hidden;
+		padding-left: 10px;
+	}
+}
+
+.main {
+	padding: 141px 0 0;
+}
+
+.title-holder {
+	text-align: center;
+}
+
+.title {
+	margin: 0 0 40px;
+	font-size: 29px;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: $text-color;
+
+	&:after {
+		content: '';
+		display: block;
+		width: 195px;
+		height: 2px;
+		background: $border-color;
+		margin: 12px auto 0;
+	}
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 33px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+

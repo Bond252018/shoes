@@ -1,0 +1,40 @@
+.header {
+	padding: 26px 0;
+	background: $header-bg;
+	box-shadow: 0 5px 12px 0 rgba(0,0,0,.1);
+}
+
+.navigation {
+	margin: 0;
+	padding: 15px 0 0;
+	font-size: 0;
+	text-align: right;
+
+	li {
+		display: inline-block;
+		vertical-align: top;
+		font-size: 20px;
+		margin: 0 0 0 55px;
+		letter-spacing: 1px;
+		font-weight: 600;
+
+		&:first-child {
+			margin: 0;
+		}
+
+		a {
+			color: $text-color;
+
+			&:hover {
+				color: $pink;
+				text-decoration: none;
+			}
+		}
+
+	}
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+}

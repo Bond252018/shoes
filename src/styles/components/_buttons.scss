@@ -1,0 +1,54 @@
+.btn {
+	transition: background 0.4s;
+	border-radius: 0;
+	border: none;
+	text-transform: uppercase;
+
+	&.btn-primary {
+		background: $btn-primary-color;
+		padding: 16px;
+		color: $text-color;
+		font-size: 22px;
+
+		&:hover,
+		&:focus {
+			background: darken($btn-primary-color,5%);
+		} 
+	}
+
+	&.btn-default {
+		background: $btn-default-color;
+		color: $white;
+		font-size: 30px;
+		font-weight: 600;
+		padding: 18px;
+
+		&:hover,
+		&:focus {
+			background: darken($btn-default-color,10%);
+		} 
+	}
+
+	&.btn-contact {
+		padding-left: 60px;
+		position: relative;
+		background: #f0bdd1;
+		padding: 16px 10px 16px 60px;
+		background: #f0bdd1;
+		text-transform: none;
+		font-size: 21px;
+		font-weight: 800;
+		text-align: center;
+
+		.icon-holder {
+			position: absolute;
+			height: 100%;
+			background: white;
+			top: 3px;
+			left: 3px;
+			padding: 11px 17px;
+			color: #f0bdd1;
+			height: 55px;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.sidebar {
+	background: $light-pink-bg;
+	width: 266px;
+	float: left;
+	box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+	padding: 32px 0 0;
+
+	h1 {
+		text-align: center;
+		margin: 0 0 29px;
+	}
+
+	.nav {
+		font-size: 22px;
+
+		a {
+			padding: 24px 21px 27px;
+			color: $text-color;
+			font-weight: 300;
+			text-transform: uppercase;
+
+			&:hover,
+			&.active {
+				background: #f0bdd1;
+			}
+		}
+	}
+}
